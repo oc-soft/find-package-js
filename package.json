@@ -1,10 +1,10 @@
 {
-  "name": "find-package",
+  "name": "@oc-soft/find-package",
   "version": "1.0.0",
-  "description": "search package.json path from package.json in npm.",
+  "description": "search npm package path information.",
   "main": "index.js",
   "scripts": {
-    "test": "Error: no test specified\" && exit 1"
+    "test": "cd test && node index.js"
   },
   "keywords": [
     "css",
@@ -12,7 +12,15 @@
     "node_modules",
     "package.json"
   ],
-  "author": "Toshiyuki Ogawa",
+  "homepage": "https://github.com/oc-soft/find-package-js",
+  "bugs": {
+    "url": "https://github.com/oc-soft/find-package-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oc-soft/find-package-js"
+  },
+  "author": "Toshiyuki Ogawa <toshi@oc-soft.net>",
   "license": "ISC",
   "devDependencies": {}
 }
